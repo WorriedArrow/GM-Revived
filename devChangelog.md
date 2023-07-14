@@ -1,5 +1,6 @@
-### Based on commit 1de968a, made 14/07 22:38 UTC
+### Based on commit 66865e2, made 14/07 22:46 UTC
 ## Commits this release
+  - defiant: add wrapTry fn
   - defiant: %typedarray% dbg fix
   - defiant: %typedarray% dbg
   - defiant: oops, remove debug code
