@@ -1,2 +1,4 @@
-### Based on commit af2bcf9, made 27/09 00:21 UTC
+### Based on commit 71bbe9a, made 14/07 16:15 UTC
 ## Commits this release
+  - +changelog, action test
+  - fix defiant illegal invocation w/ DOMTokenList
