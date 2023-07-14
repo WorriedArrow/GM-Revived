@@ -1,5 +1,13 @@
 # GooseMod Changelog
 
+## v13.0 [2021-11-03]
+
+  - ### GooseMod Reborn
+    - **This is the start of a brand-new project to give new life to GooseMod after the SWC blackout.**
+
+  - ### General Hotfixes [progress]
+    - **Fixed Defiant `TypeError: Illegal invocation` error with DOMTokenList.**
+
 ## v12.3 [2021-11-03]
 
   - ### New Store Badges
