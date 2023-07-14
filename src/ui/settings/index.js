@@ -121,6 +121,7 @@ export const _createItem = (name, content, container = true) => {
     }
 
     const component = Items[x.type];
+    console.log(Items);
 
     if (!component) return React.createElement('div');
 

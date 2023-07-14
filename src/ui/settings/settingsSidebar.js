@@ -54,7 +54,7 @@ export default async (goosemodScope, gmSettings) => {
             predicate: () => { },
             element: function() {
               if (typeof i[3] === 'function') {
-                document.querySelector('.item-3XjbnG.selected-g-kMVV:not(.item-3mHhwr)').click();
+                document.querySelector('.item-2GWPIy.selected-1sf9UK:not(.item-3mHhwr)').click();
                 
                 i[3]();
                 
