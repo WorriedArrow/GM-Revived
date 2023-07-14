@@ -10,6 +10,14 @@ if (window.webpackJsonp) { // Older
   window.webpackChunkdiscord_app.push([[ Math.random() ], {}, (req) => { wpRequire = req; }]);
 }
 
+const wrapTry = f => {
+  try {
+    return f();
+  } catch {
+    return "";
+  }
+}
+
 const remappers = [ // [ filter, handler]
   [ m => Object.values(m).some(x => x && x.FLEXIBLE && x.FIXED), m => {
     m.MenuStyle = Object.values(m).find(x => x?.FLEXIBLE);
@@ -87,7 +95,7 @@ const remappers = [ // [ filter, handler]
     m.default.displayName = 'FormItem';
   } ],
 
-  [ m => Object.values(m).some(y => console.log(y?.toString) || (y?.toString?.().includes('USER_UPDATE') && y?.toString?.().includes('Promise.resolve'))), m => {
+  [ m => Object.values(m).some(y => (wrapTry(y?.toString).includes('USER_UPDATE') && wrapTry(y?.toString).includes('Promise.resolve'))), m => {
     m.getUser = Object.values(m).find(x => x.toString().includes('USER_UPDATE') && x.toString().includes('Promise.resolve'));
     m.fetchCurrentUser = Object.values(m).find(x => x.toString().includes('CURRENT_USER'));
   }],
