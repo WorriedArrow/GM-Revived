@@ -1,5 +1,6 @@
-### Based on commit a4cbbd6, made 14/07 22:23 UTC
+### Based on commit ec4537f, made 14/07 22:36 UTC
 ## Commits this release
+  - defiant: %typedarray% dbg
   - defiant: oops, remove debug code
   - defiant: no more DOMTokenList
   - add logs + fix defiant in bootstrapper
