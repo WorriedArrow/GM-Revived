@@ -116,7 +116,7 @@ for (const i of Object.keys(wpRequire.c)) {
   }
 
   for (const [ filter, handler ] of remappers) {
-    if (!(latest[Symbol.toStringTag] === "DOMTokenList") && filter(exports)) handler(exports);
+    if (!(exports[Symbol.toStringTag] === "DOMTokenList") && filter(exports)) handler(exports);
   }
 }
 
