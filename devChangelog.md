@@ -1,5 +1,6 @@
-### Based on commit 2195222, made 14/07 22:21 UTC
+### Based on commit a4cbbd6, made 14/07 22:23 UTC
 ## Commits this release
+  - defiant: oops, remove debug code
   - defiant: no more DOMTokenList
   - add logs + fix defiant in bootstrapper
   - +defiant
