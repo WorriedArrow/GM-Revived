@@ -131,8 +131,8 @@ for (const i of Object.keys(wpRequire.c)) {
 console.log('remapped', changes, 'keys');
 
 setTimeout(() => {
-React = goosemod.webpackModules.findByProps('createElement');
-o = React.createElement;
+let React = goosemod.webpackModules.findByProps('createElement');
+let o = React.createElement;
 React.createElement = function(c) {
     if (c === undefined) {
         console.trace();

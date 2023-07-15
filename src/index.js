@@ -113,7 +113,7 @@ const init = async function () {
   }
 
   this.versioning = {
-    version: `12.3`,
+    version: `13.0`,
     hash: '<hash>', // Hash of git commit
 
     branch: goosemod.storage.get('goosemodUntetheredBranch'),

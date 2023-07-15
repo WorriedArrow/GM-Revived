@@ -11,7 +11,7 @@ let queueProcessInterval;
 export const setThisScope = (scope) => {
   goosemodScope = scope;
 
-  getUser = goosemodScope.webpackModules.findByProps('getUser', 'fetchCurrentUser').getUser;
+  getUser = goosemodScope.webpackModules.findByProps('getUser').getUser;
 };
 
 const queue = [], queueReturns = [];
