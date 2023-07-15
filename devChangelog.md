@@ -1,5 +1,6 @@
-### Based on commit c394a66, made 15/07 15:43 UTC
+### Based on commit c63592b, made 15/07 16:01 UTC
 ## Commits this release
+  - defiant: add props + children to patched React.createElement
   - defiant: add sourceurl
   - fix a couple modules, fix defiant
   - settings: add debug
