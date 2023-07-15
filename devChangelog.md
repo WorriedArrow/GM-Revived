@@ -1,5 +1,6 @@
-### Based on commit 4f2be4c, made 15/07 16:12 UTC
+### Based on commit da04012, made 15/07 16:36 UTC
 ## Commits this release
+  - webpack: add CommonComponents and use instead of findByDisplayName
   - defiant: mod react.createElement, settings: add optional chaining
   - defiant: add props + children to patched React.createElement
   - defiant: add sourceurl
