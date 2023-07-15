@@ -133,10 +133,10 @@ console.log('remapped', changes, 'keys');
 setTimeout(() => {
 let React = goosemod.webpackModules.findByProps('createElement');
 let o = React.createElement;
-React.createElement = function(c) {
+React.createElement = function(c, p, x) {
     if (c === undefined) {
         console.trace();
-        return o('div');
+        return o('div', p, x);
     }
     return o.apply(this, arguments);
 };
