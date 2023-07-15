@@ -1,5 +1,6 @@
-### Based on commit c63592b, made 15/07 16:01 UTC
+### Based on commit 4f2be4c, made 15/07 16:12 UTC
 ## Commits this release
+  - defiant: mod react.createElement, settings: add optional chaining
   - defiant: add props + children to patched React.createElement
   - defiant: add sourceurl
   - fix a couple modules, fix defiant
