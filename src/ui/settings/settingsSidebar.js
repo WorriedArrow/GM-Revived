@@ -65,16 +65,16 @@ export default async (goosemodScope, gmSettings) => {
               
               if (i[1] === '#terms.store.plugins#' || i[1] === '#terms.store.themes#' || i[1] === '#terms.store.snippets#') { // Settings expansion for Store panel
                 setTimeout(() => {
-                  document.querySelector('.sidebarRegion-VFTUkN').style.maxWidth = '218px';
-                  document.querySelector('.contentColumnDefault-1VQkGM').style.maxWidth = 'calc(100vw - 218px - 60px - 20px)';
+                  document.querySelector('.sidebarRegion-1VBisG').style.maxWidth = '218px';
+                  document.querySelector('.contentColumnDefault-3eyv5o').style.maxWidth = 'calc(100vw - 218px - 60px - 20px)';
                 }, 10);
                 
                 settingsSidebarEl.addEventListener('click', (e) => {
                   if (e.clientX === 0 // <el>.click() - not an actual user click - as it has no mouse position coords (0, 0)
                   || e.target.textContent === '#terms.store.plugins#' || e.target.textContent === '#terms.store.themes#' || e.target.textContent === '#terms.store.snippets#') return;  // Clicking on Store when already in it should not break resizing
                   
-                  document.querySelector('.sidebarRegion-VFTUkN').style.maxWidth = '50%';
-                  document.querySelector('.contentColumnDefault-1VQkGM').style.maxWidth = '740px';
+                  document.querySelector('.sidebarRegion-1VBisG').style.maxWidth = '50%';
+                  document.querySelector('.contentColumnDefault-3eyv5o').style.maxWidth = '740px';
                 });
               }
               

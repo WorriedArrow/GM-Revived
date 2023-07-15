@@ -3,7 +3,7 @@ const { React } = goosemod.webpackModules.common;
 
 // const Header = goosemod.webpackModules.findByDisplayName('Header');
 
-const FormTitle = goosemod.webpackModules.findByDisplayName('FormTitle');
+const { FormTitle } = goosemod.webpackModules.common.CommonComponents;
 
 const Button = goosemod.webpackModules.findByProps('Sizes', 'Colors', 'Looks', 'DropdownSizes');
 

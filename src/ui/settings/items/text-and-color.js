@@ -4,8 +4,7 @@ export default () => {
 const { React, constants: { DEFAULT_ROLE_COLOR, ROLE_COLORS } } = goosemod.webpackModules.common;
 
 const Divider = _Divider();
-const FormItem = goosemod.webpackModules.findByDisplayName('FormItem');
-const FormTitle = goosemod.webpackModules.findByDisplayName('FormTitle');
+const { FormItem, FormTitle } = goosemod.webpackModules.common.CommonComponents;
 
 const Margins = goosemod.webpackModules.findByProps('marginTop20', 'marginBottom20');
 const TitleClasses = goosemod.webpackModules.findByProps('defaultMarginh5');

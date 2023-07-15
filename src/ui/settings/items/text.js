@@ -4,8 +4,7 @@ export default () => {
 const Divider = _Divider();
 const { React } = goosemod.webpackModules.common;
 
-const FormItem = goosemod.webpackModules.findByDisplayName('FormItem');
-const FormText = goosemod.webpackModules.findByDisplayName('FormText');
+const { FormItem, FormText } = goosemod.webpackModules.common.CommonComponents;
 
 const Flex = goosemod.webpackModules.findByDisplayName('Flex');
 const Margins = goosemod.webpackModules.findByProps('marginTop20', 'marginBottom20');

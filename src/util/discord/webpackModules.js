@@ -69,6 +69,8 @@ export const common = { // Common modules
   Flux: findByProps('Store', 'connectStores'),
   FluxDispatcher: findByProps('register', 'wait'),
 
+  CommonComponents: findByProps("useToken"),
+
   i18n: findByProps('Messages', '_requestedLocale'),
 
   channels: findByProps('getChannelId', 'getVoiceChannelId'),

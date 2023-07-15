@@ -3,7 +3,7 @@ const { React } = goosemod.webpackModules.common;
 
 const { SingleSelect } = goosemod.webpackModules.findByProps('SingleSelect');
 
-const FormText = goosemod.webpackModules.findByDisplayName('FormText');
+const { FormText } = goosemod.webpackModules.common.CommonComponents;
 
 const FormTextClasses = goosemod.webpackModules.findByProps('formText', 'placeholder');
 

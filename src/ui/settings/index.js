@@ -111,8 +111,7 @@ export const createSeparator = () => {
 export const _createItem = (name, content, container = true) => {
   const { React } = goosemodScope.webpackModules.common;
 
-  const FormSection = goosemodScope.webpackModules.findByDisplayName('FormSection');
-  const FormTitle = goosemodScope.webpackModules.findByDisplayName('FormTitle');
+  const { FormSection, FormTitle } = goosemodScope.webpackModules.common.CommonComponents;
 
   const makeContent = () => content.slice(1).map((x, i) => {
     if (x.type.includes('danger-button')) {

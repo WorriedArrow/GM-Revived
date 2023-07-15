@@ -5,8 +5,7 @@ const { React } = goosemod.webpackModules.common;
 
 const Divider = _Divider();
 
-const FormItem = goosemod.webpackModules.findByDisplayName('FormItem');
-const FormText = goosemod.webpackModules.findByDisplayName('FormText');
+const { FormItem, FormText } = goosemod.webpackModules.common.CommonComponents;
 const TextInput = goosemod.webpackModules.findByDisplayName('TextInput');
 
 const Flex = goosemod.webpackModules.findByDisplayName('Flex');

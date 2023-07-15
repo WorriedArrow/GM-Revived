@@ -1,11 +1,10 @@
 export default () => {
 const { React } = goosemod.webpackModules.common;
 
-const FormTitle = goosemod.webpackModules.findByDisplayName('FormTitle');
+const { FormTitle, Tooltip } = goosemod.webpackModules.common.CommonComponents;
 
 const Margins = goosemod.webpackModules.findByProps('marginTop20', 'marginBottom8');
 
-const Tooltip = goosemod.webpackModules.findByDisplayName('Tooltip');
 const Science = goosemod.webpackModules.findByDisplayName('Science');
 
 

@@ -12,7 +12,7 @@ const Button = goosemod.webpackModules.findByProps('Sizes', 'Colors', 'Looks', '
 const Switch = goosemod.webpackModules.findByDisplayName('Switch');
 
 const Markdown = goosemod.webpackModules.find((x) => x.displayName === 'Markdown' && x.rules);
-const FormText = goosemod.webpackModules.findByDisplayName('FormText');
+const { FormText } = goosemod.webpackModules.common.CommonComponents;
 
 const FormTextClasses = goosemod.webpackModules.findByProps('formText', 'placeholder');
 const FormClasses = goosemod.webpackModules.findByProps('title', 'dividerDefault');
