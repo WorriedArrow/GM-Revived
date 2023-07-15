@@ -1,5 +1,6 @@
-### Based on commit 166399b, made 14/07 23:57 UTC
+### Based on commit 1e4cabd, made 15/07 15:08 UTC
 ## Commits this release
+  - fix a couple modules, fix defiant
   - settings: add debug
   - defiant: add wrapTry fn
   - defiant: %typedarray% dbg fix
