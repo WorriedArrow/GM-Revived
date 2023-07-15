@@ -54,9 +54,9 @@ export default async (goosemodScope, gmSettings) => {
             predicate: () => { },
             element: function() {
               if (typeof i[3] === 'function') {
-                document.querySelector('.item-2GWPIy.selected-1sf9UK:not(.item-3mHhwr)').click();
+                document.querySelector('.item-2GWPIy.selected-1sf9UK:not(.item-3mHhwr)')?.click();
                 
-                i[3]();
+                i[3]?.();
                 
                 return React.createElement('div');
               }

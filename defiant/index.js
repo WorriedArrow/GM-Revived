@@ -134,7 +134,7 @@ setTimeout(() => {
 let React = goosemod.webpackModules.findByProps('createElement');
 let o = React.createElement;
 React.createElement = function(c, p, x) {
-    if (c === undefined) {
+    if (!c) {
         console.trace();
         return o('div', p, x);
     }
