@@ -61,7 +61,6 @@ export const findByDisplayNameAll = (name) => findAll((m) => m.displayName === n
 
 export const findByModuleId = (id) => wpRequire.c[id];
 
-
 export const common = { // Common modules
   React: findByProps('createElement'),
   ReactDOM: findByProps('render', 'hydrate'),
@@ -69,7 +68,7 @@ export const common = { // Common modules
   Flux: findByProps('Store', 'connectStores'),
   FluxDispatcher: findByProps('register', 'wait'),
 
-  CommonComponents: findByProps("useToken"),
+  CommonComponents: Object.fromEntries(Object.entries(findByProps("useToken"))),
 
   i18n: findByProps('Messages', '_requestedLocale'),
 
