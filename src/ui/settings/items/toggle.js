@@ -12,6 +12,7 @@ const Alert = goosemod.webpackModules.findByDisplayName('InfoFilled');
 
 return class Toggle extends React.Component {
   constructor(props) {
+    console.log(props);
     const originalHandler = props.onToggle;
     props.onChange = (e) => {
       this.props.value = e;
@@ -84,7 +85,6 @@ return class Toggle extends React.Component {
   }
 
   render() {
-    console.log("SwitchItem", SwitchItem)
     return React.createElement(SwitchItem, {
       value: this.props.isToggled(),
       note: React.createElement(Markdown, {
