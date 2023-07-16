@@ -1,5 +1,6 @@
-### Based on commit 511e054, made 16/07 16:15 UTC
+### Based on commit 7376609, made 16/07 16:45 UTC
 ## Commits this release
+  - toggle: use CommonComponents
   - add CommonComponents
   - webpack: add CommonComponents and use instead of findByDisplayName
   - defiant: mod react.createElement, settings: add optional chaining
