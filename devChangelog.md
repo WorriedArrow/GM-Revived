@@ -1,5 +1,6 @@
-### Based on commit 7376609, made 16/07 16:45 UTC
+### Based on commit 009e0c7, made 16/07 16:50 UTC
 ## Commits this release
+  - toggle: add tmp debug log
   - toggle: use CommonComponents
   - add CommonComponents
   - webpack: add CommonComponents and use instead of findByDisplayName
