@@ -1,7 +1,7 @@
 export default () => {
 const { React } = goosemod.webpackModules.common;
 
-const SwitchItem = goosemod.webpackModules.findByDisplayName('SwitchItem');
+const { Switch: SwitchItem } = goosemod.webpackModules.common.CommonComponents;
 
 const Markdown = goosemod.webpackModules.find((x) => x.displayName === 'Markdown' && x.rules);
 
@@ -84,6 +84,7 @@ return class Toggle extends React.Component {
   }
 
   render() {
+    console.log("SwitchItem", SwitchItem)
     return React.createElement(SwitchItem, {
       value: this.props.isToggled(),
       note: React.createElement(Markdown, {
