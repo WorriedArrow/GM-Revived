@@ -79,3 +79,5 @@ export const common = { // Common modules
     back: find(m => m?.toString?.().includes("goBack()")),
   }
 };
+
+export const require = wpRequire;
