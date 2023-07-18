@@ -1,5 +1,6 @@
-### Based on commit 8313808, made 18/07 14:42 UTC
+### Based on commit 9a4376e, made 18/07 14:46 UTC
 ## Commits this release
+  - add NavigationRouter :D
   - export wpRequire
   - wpMods: add Router to common
   - toggle: fix tmp debug log
