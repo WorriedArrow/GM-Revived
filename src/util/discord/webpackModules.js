@@ -75,8 +75,8 @@ export const common = { // Common modules
   channels: findByProps('getChannelId', 'getVoiceChannelId'),
   constants: findByProps('API_HOST'),
   Router: {
-    transitionTo: find(m => m?.toString?.().includes("transitionTo -")),
-    back: find(m => m?.toString?.().includes("goBack()")),
+    transitionTo: Object.values(wpRequire.c[784426].exports).find(x => x.toString().includes("transitionTo -")),
+    back: Object.values(wpRequire.c[784426].exports).find(x => x.toString().includes("goBack()")),
   }
 };
 
