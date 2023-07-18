@@ -1,5 +1,6 @@
-### Based on commit dccf257, made 18/07 04:31 UTC
+### Based on commit 8313808, made 18/07 14:42 UTC
 ## Commits this release
+  - export wpRequire
   - wpMods: add Router to common
   - toggle: fix tmp debug log
   - toggle: add tmp debug log
