@@ -73,5 +73,9 @@ export const common = { // Common modules
   i18n: findByProps('Messages', '_requestedLocale'),
 
   channels: findByProps('getChannelId', 'getVoiceChannelId'),
-  constants: findByProps('API_HOST')
+  constants: findByProps('API_HOST'),
+  Router: {
+    transitionTo: find(m => m?.toString?.().includes("transitionTo -")),
+    back: find(m => m?.toString?.().includes("goBack()")),
+  }
 };

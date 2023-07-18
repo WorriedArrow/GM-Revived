@@ -126,7 +126,7 @@ export const store = async () => {
 
   const { React } = goosemod.webpackModules.common;
 
-  const RoutingUtils = goosemod.webpackModules.findByProps('transitionTo');
+  const RoutingUtils = goosemod.webpackModules.common.Router;
 
   const Header = goosemod.webpackModules.findByDisplayName('Header');
   const Text = goosemod.webpackModules.findByDisplayName('Text');

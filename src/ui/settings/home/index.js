@@ -70,7 +70,7 @@ export default async (goosemodScope) => {
     makeContent(false, content)
   );
 
-  const RoutingUtils = goosemodScope.webpackModules.findByProps('transitionTo');
+  const RoutingUtils = goosemodScope.webpackModules.common.Router;
 
   const findClassInParentTree = (el, className, depth = 0) => {
     if (depth > 5) return false;

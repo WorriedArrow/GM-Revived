@@ -36,7 +36,7 @@ export default () => {
         onClick: async () => {
           document.querySelector('.backdrop-1wrmKB').click(); // Hide user profile modal
 
-          const RoutingUtils = goosemod.webpackModules.findByProps('transitionTo');
+          const RoutingUtils = goosemod.webpackModules.common.Router;
 
           RoutingUtils.transitionTo('/store'); // Go to home
 
